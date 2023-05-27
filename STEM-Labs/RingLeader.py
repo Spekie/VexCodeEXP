@@ -22,7 +22,6 @@ def when_started1():
     drivetrain.turn_for(RIGHT, 190, DEGREES, wait=True)
     drivetrain.drive_for(FORWARD, 28, INCHES, wait=True)
     arm.spin(REVERSE)
-    # stop project not currently supported
 
 # Calibrate the Drivetrain
 calibrate_drivetrain()
